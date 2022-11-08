@@ -1,0 +1,22 @@
+.header{
+  background-color:#2f9b96;
+}
+
+.containerFluid{
+  margin: 2% 25% 0% 10%;
+  border-width: 1px;
+
+}
+
+.link{
+  color: rgb(37, 108, 223);
+  text-decoration-line: underline;
+}
+
+.container{
+  margin: 2% 0% 2% 0%;
+  border-width: 1px;
+
+}
+
+

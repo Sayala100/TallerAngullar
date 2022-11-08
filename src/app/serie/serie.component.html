@@ -1,0 +1,40 @@
+<h2 class="header">
+  <img src="https://art.pixilart.com/474de8f2241fd58.png" width="45" height="45"> TV Series</h2>
+
+<div class="container-fluid">
+  <div class="col-6">
+    <table class="table w-auto">
+      <thead>
+        <tr>
+          <th class="h4">#</th>
+          <th class="h4">Nombre</th>
+          <th class="h4">Canal</th>
+          <th class="h4">Temporadas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let s of series">
+          <td  class="table-light">
+            <dd>{{s.id}}</dd>
+          </td>
+          <td class="table-light">
+            <dd class ="link">{{s.name}}</dd>
+          </td>
+          <td class="table-light">
+            <dd>{{s.channel}}</dd>
+          </td>
+          <td class="table-light">
+            <dd>{{s.seasons}}</dd>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class= "container">
+  <div class = "row">
+    <div class = "col-sm">
+      Season Average: {{seasonAverage}}
+    </div>
+  </div>
+</div>
